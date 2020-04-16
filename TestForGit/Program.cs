@@ -6,10 +6,11 @@ namespace TestForGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Ich hoffe ich mache das richtig!");
+            //Lukas Strohmer
+            Console.WriteLine("Lukas");
 
-            Console.ReadKey();
+            //Klotz Stefan
+            Console.WriteLine("Stefan");
         }
     }
 }
