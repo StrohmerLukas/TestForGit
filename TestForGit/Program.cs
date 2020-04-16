@@ -7,35 +7,45 @@ namespace TestForGit
         static void Main(string[] args)
         {
             //Lukas Strohmer
-            Console.WriteLine("Bitte geben sie die Erste Zahl ein:");
-            int Zahl1= Convert.ToInt32(Console.ReadLine());
-            Console.Clear();
-            Console.WriteLine("Bitte geben sie die Zweite Zahl ein:");
-            int Zahl2 = Convert.ToInt32(Console.ReadLine());
-            Console.Clear();
-
-            Console.WriteLine("Welche der folgenden Operationen möchten sie ausführen: +, -, /, *");
-            string Operation = Console.ReadLine();
-            switch (Operation)
+            while (true)
             {
-                case "+":
-                    Addition(Zahl1, Zahl2);
-                    break;
-                case "-":
-                    Subtraktion(Zahl1, Zahl2);
-                    break;
-                case "/":
-                    Division(Zahl1, Zahl2);
-                    break;
-                case "*":
-                    Multiplikation(Zahl1, Zahl2);
-                    break;
+                try
+                {
+                    Console.WriteLine("Bitte geben sie die Erste Zahl ein:");
+                    int Zahl1 = Convert.ToInt32(Console.ReadLine());
+                    Console.Clear();
+                    Console.WriteLine("Bitte geben sie die Zweite Zahl ein:");
+                    int Zahl2 = Convert.ToInt32(Console.ReadLine());
+                    Console.Clear();
+
+                    Console.WriteLine("Welche der folgenden Operationen möchten sie ausführen: +, -, /, *");
+                    string Operation = Console.ReadLine();
+                    switch (Operation)
+                    {
+                        case "+":
+                            Addition(Zahl1, Zahl2);
+                            break;
+                        case "-":
+                            Subtraktion(Zahl1, Zahl2);
+                            break;
+                        case "/":
+                            Division(Zahl1, Zahl2);
+                            break;
+                        case "*":
+                            Multiplikation(Zahl1, Zahl2);
+                            break;
+                        default:
+                            Console.WriteLine("Diese Operation ist nicht vorhanden!");
+                            break;
+                    }
+                }
+                catch (Exception exp)
+                {
+                    Console.WriteLine(exp);
+                }
             }
 
             //Klotz Stefan
-            Console.WriteLine("Stefan");
-
-
         }
 
         /// <summary>
