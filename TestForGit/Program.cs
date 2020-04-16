@@ -7,7 +7,14 @@ namespace TestForGit
         static void Main(string[] args)
         {
             //Lukas Strohmer
-            Console.WriteLine("Lukas");
+            Console.WriteLine("Bitte geben sie die Erste Zahl ein:");
+            int Zahl1= Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("Bitte geben sie die Zweite Zahl ein:");
+            int Zahl2 = Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
+
+            switch ()
 
             //Klotz Stefan
             Console.WriteLine("Stefan");
