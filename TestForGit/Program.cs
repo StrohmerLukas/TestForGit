@@ -74,11 +74,16 @@ namespace TestForGit
             return result;
         }
 
+        /// <summary>
+        /// Divides one value by another
+        /// </summary>
+        /// <param name="number1">first number</param>
+        /// <param name="number2">second number</param>
+        /// <returns></returns>
         public static double Division (int number1, int number2)
         {
-            double result = 0;
-
-            return result;
+            double result = number1 / number2;
+            return Math.Round(result,3);
         }
 
 
