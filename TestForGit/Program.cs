@@ -14,7 +14,23 @@ namespace TestForGit
             int Zahl2 = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
 
-            switch ()
+            Console.WriteLine("Welche der folgenden Operationen möchten sie ausführen: +, -, /, *");
+            string Operation = Console.ReadLine();
+            switch (Operation)
+            {
+                case "+":
+                    Addition(Zahl1, Zahl2);
+                    break;
+                case "-":
+                    Subtraktion(Zahl1, Zahl2);
+                    break;
+                case "/":
+                    Division(Zahl1, Zahl2);
+                    break;
+                case "*":
+                    Multiplikation(Zahl1, Zahl2);
+                    break;
+            }
 
             //Klotz Stefan
             Console.WriteLine("Stefan");
