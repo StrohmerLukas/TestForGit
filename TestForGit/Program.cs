@@ -37,8 +37,8 @@ namespace TestForGit
         /// <summary>
         /// Calculates the first number minus the second
         /// </summary>
-        /// <param name="number1"></param>
-        /// <param name="number2"></param>
+        /// <param name="number1">first number</param>
+        /// <param name="number2">second number</param>
         /// <returns></returns>
         public static int Subtraktion (int number1, int number2)
         {
@@ -46,10 +46,15 @@ namespace TestForGit
             return result;
         }
 
+        /// <summary>
+        /// Multiplies two number
+        /// </summary>
+        /// <param name="number1">first number</param>
+        /// <param name="number2">second number</param>
+        /// <returns></returns>
         public static int Multiplikation (int number1, int number2)
         {
-            int result = 0;
-
+            int result = number1 * number2;
             return result;
         }
 
