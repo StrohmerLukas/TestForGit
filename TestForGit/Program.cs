@@ -27,10 +27,15 @@ namespace TestForGit
             return  result;
         }
 
+        /// <summary>
+        /// Calculates the first number minus the second
+        /// </summary>
+        /// <param name="number1"></param>
+        /// <param name="number2"></param>
+        /// <returns></returns>
         public static int Subtraktion (int number1, int number2)
         {
-            int result = 0;
-
+            int result = number1 - number2;
             return result;
         }
 
