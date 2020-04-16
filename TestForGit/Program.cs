@@ -44,6 +44,8 @@ namespace TestForGit
                             Console.WriteLine("Diese Operation ist nicht vorhanden!");
                             break;
                     }
+                    Console.ReadLine();
+                    Console.Clear();
                 }
                 catch (Exception exp)
                 {
