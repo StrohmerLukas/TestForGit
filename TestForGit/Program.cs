@@ -26,19 +26,19 @@ namespace TestForGit
                     {
                         case "+":
                             Erg= Addition(Zahl1, Zahl2);
-                            Console.WriteLine(Erg);
+                            Console.WriteLine("Ergebnis:" + Erg);
                             break;
                         case "-":
                             Erg=Subtraktion(Zahl1, Zahl2);
-                            Console.WriteLine(Erg);
+                            Console.WriteLine("Ergebnis:" + Erg);
                             break;
                         case "/":
                             Erg=Division(Zahl1, Zahl2);
-                            Console.WriteLine(Erg);
+                            Console.WriteLine("Ergebnis:"+ Erg);
                             break;
                         case "*":
                             Erg=Multiplikation(Zahl1, Zahl2);
-                            Console.WriteLine(Erg);
+                            Console.WriteLine("Ergebnis:" + Erg);
                             break;
                         default:
                             Console.WriteLine("Diese Operation ist nicht vorhanden!");
