@@ -11,6 +11,8 @@ namespace TestForGit
             {
                 try
                 {
+                    double Erg=0;
+
                     Console.WriteLine("Bitte geben sie die Erste Zahl ein:");
                     int Zahl1 = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
@@ -23,16 +25,20 @@ namespace TestForGit
                     switch (Operation)
                     {
                         case "+":
-                            Addition(Zahl1, Zahl2);
+                            Erg= Addition(Zahl1, Zahl2);
+                            Console.WriteLine(Erg);
                             break;
                         case "-":
-                            Subtraktion(Zahl1, Zahl2);
+                            Erg=Subtraktion(Zahl1, Zahl2);
+                            Console.WriteLine(Erg);
                             break;
                         case "/":
-                            Division(Zahl1, Zahl2);
+                            Erg=Division(Zahl1, Zahl2);
+                            Console.WriteLine(Erg);
                             break;
                         case "*":
-                            Multiplikation(Zahl1, Zahl2);
+                            Erg=Multiplikation(Zahl1, Zahl2);
+                            Console.WriteLine(Erg);
                             break;
                         default:
                             Console.WriteLine("Diese Operation ist nicht vorhanden!");
@@ -44,10 +50,8 @@ namespace TestForGit
                     Console.WriteLine(exp);
                 }
             }
-
-            //Klotz Stefan
         }
-
+        //Klotz Stefan
         /// <summary>
         /// Adds two numbers together
         /// </summary>
