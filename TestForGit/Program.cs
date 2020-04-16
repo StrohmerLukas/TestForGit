@@ -11,6 +11,38 @@ namespace TestForGit
 
             //Klotz Stefan
             Console.WriteLine("Stefan");
+
+
         }
+
+        public static int Addition (int number1, int number2)
+        {
+            int result = 0;
+
+            return  result;
+        }
+
+        public static int Subtraktion (int number1, int number2)
+        {
+            int result = 0;
+
+            return result;
+        }
+
+        public static int Multiplikation (int number1, int number2)
+        {
+            int result = 0;
+
+            return result;
+        }
+
+        public static double Division (int number1, int number2)
+        {
+            double result = 0;
+
+            return result;
+        }
+
+
     }
 }
