@@ -15,10 +15,15 @@ namespace TestForGit
 
         }
 
+        /// <summary>
+        /// Adds two numbers together
+        /// </summary>
+        /// <param name="number1">first number</param>
+        /// <param name="number2">second number</param>
+        /// <returns></returns>
         public static int Addition (int number1, int number2)
         {
-            int result = 0;
-
+            var result = number1 + number2;
             return  result;
         }
 
