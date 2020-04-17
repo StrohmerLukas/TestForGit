@@ -14,10 +14,10 @@ namespace TestForGit
                     double Erg=0;
 
                     Console.WriteLine("Bitte geben sie die Erste Zahl ein:");
-                    int Zahl1 = Convert.ToInt32(Console.ReadLine());
+                    double Zahl1 = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
                     Console.WriteLine("Bitte geben sie die Zweite Zahl ein:");
-                    int Zahl2 = Convert.ToInt32(Console.ReadLine());
+                    double Zahl2 = Convert.ToInt32(Console.ReadLine());
                     Console.Clear();
 
                     Console.WriteLine("Welche der folgenden Operationen möchten sie ausführen: +, -, /, *");
@@ -60,9 +60,9 @@ namespace TestForGit
         /// <param name="number1">first number</param>
         /// <param name="number2">second number</param>
         /// <returns></returns>
-        public static int Addition (int number1, int number2)
+        public static double Addition (double number1, double number2)
         {
-            var result = number1 + number2;
+            double result = number1 + number2;
             return  result;
         }
 
@@ -72,9 +72,9 @@ namespace TestForGit
         /// <param name="number1">first number</param>
         /// <param name="number2">second number</param>
         /// <returns></returns>
-        public static int Subtraktion (int number1, int number2)
+        public static double Subtraktion (double number1, double number2)
         {
-            int result = number1 - number2;
+            double result = number1 - number2;
             return result;
         }
 
@@ -84,9 +84,9 @@ namespace TestForGit
         /// <param name="number1">first number</param>
         /// <param name="number2">second number</param>
         /// <returns></returns>
-        public static int Multiplikation (int number1, int number2)
+        public static double Multiplikation (double number1, double number2)
         {
-            int result = number1 * number2;
+            double result = number1 * number2;
             return result;
         }
 
@@ -96,7 +96,7 @@ namespace TestForGit
         /// <param name="number1">first number</param>
         /// <param name="number2">second number</param>
         /// <returns></returns>
-        public static double Division (int number1, int number2)
+        public static double Division (double number1, double number2)
         {
             double result = number1 / number2;
             return Math.Round(result,3);
